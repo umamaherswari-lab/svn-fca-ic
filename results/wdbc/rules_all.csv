@@ -1,0 +1,202 @@
+antecedent,cls,length,extent,support,purity,weight,closed,n_test,test_prec
+mean radius = low,B,1,153,0.3362637362637363,0.9607843137254902,0.8791271347248577,True,38,1.0
+mean radius = high,M,1,151,0.33186813186813185,0.8940397350993378,0.8226120857699805,False,34,0.8823529411764706
+mean perimeter = low,B,1,152,0.33406593406593404,0.9671052631578947,0.8957219251336898,True,36,1.0
+mean perimeter = high,M,1,152,0.33406593406593404,0.9013157894736842,0.8341307814992025,True,33,0.9090909090909091
+mean area = low,B,1,152,0.33406593406593404,0.9605263157894737,0.8783422459893049,False,38,1.0
+mean area = high,M,1,152,0.33406593406593404,0.8947368421052632,0.8237639553429027,True,34,0.8823529411764706
+mean radius = low AND mean texture = low,B,2,67,0.14725274725274726,0.9850746268656716,0.9224211423699914,False,18,1.0
+mean radius = low AND mean texture = medium,B,2,54,0.11868131868131868,0.9259259259259259,0.7610294117647058,False,16,1.0
+mean radius = low AND mean texture = high,B,2,32,0.07032967032967033,0.96875,0.8425605536332179,True,4,1.0
+mean radius = low AND mean perimeter = low,B,2,149,0.3274725274725275,0.9664429530201343,0.8936501753019089,True,36,1.0
+mean radius = low AND mean area = low,B,2,152,0.33406593406593404,0.9605263157894737,0.8783422459893049,True,38,1.0
+mean radius = low AND mean smoothness = low,B,2,55,0.12087912087912088,1.0,0.9530443756449947,True,10,1.0
+mean radius = low AND mean smoothness = medium,B,2,47,0.10329670329670329,0.9787234042553191,0.8907563025210082,False,15,1.0
+mean radius = medium AND mean texture = low,B,2,63,0.13846153846153847,0.9523809523809523,0.8352941176470589,False,18,0.8888888888888888
+mean radius = medium AND mean smoothness = low,B,2,72,0.15824175824175823,0.9861111111111112,0.9276629570747219,False,13,0.9230769230769231
+mean radius = high AND mean texture = medium,M,2,51,0.11208791208791209,0.8823529411764706,0.7891426679907316,False,13,1.0
+mean radius = high AND mean texture = high,M,2,77,0.16923076923076924,0.987012987012987,0.9595825005551853,False,14,1.0
+mean radius = high AND mean perimeter = high,M,2,146,0.3208791208791209,0.910958904109589,0.8489805595068752,False,33,0.9090909090909091
+mean radius = high AND mean area = high,M,2,151,0.33186813186813185,0.8940397350993378,0.8226120857699805,True,33,0.9090909090909091
+mean radius = high AND mean smoothness = medium,M,2,62,0.13626373626373625,0.8870967741935484,0.8004385964912281,False,13,0.8461538461538461
+mean radius = high AND mean smoothness = high,M,2,64,0.14065934065934066,0.984375,0.9516214779372675,False,16,0.9375
+mean texture = low AND mean perimeter = low,B,2,66,0.14505494505494507,1.0,0.9606401384083046,True,17,1.0
+mean texture = low AND mean perimeter = medium,B,2,64,0.14065934065934066,0.9375,0.7972370766488412,True,20,0.9
+mean texture = low AND mean area = low,B,2,67,0.14725274725274726,0.9850746268656716,0.9224211423699914,False,18,1.0
+mean texture = low AND mean area = medium,B,2,63,0.13846153846153847,0.9523809523809523,0.8352941176470589,False,18,0.8888888888888888
+mean texture = low AND mean smoothness = low,B,2,56,0.12307692307692308,0.9821428571428571,0.9077079107505072,True,11,1.0
+mean texture = medium AND mean perimeter = low,B,2,54,0.11868131868131868,0.9259259259259259,0.7610294117647058,True,15,1.0
+mean texture = medium AND mean perimeter = high,M,2,50,0.10989010989010989,0.9,0.8157894736842105,True,13,1.0
+mean texture = medium AND mean area = low,B,2,54,0.11868131868131868,0.9259259259259259,0.7610294117647058,False,16,1.0
+mean texture = medium AND mean area = high,M,2,52,0.11428571428571428,0.8846153846153846,0.7930474333983105,True,13,1.0
+mean texture = high AND mean perimeter = low,B,2,32,0.07032967032967033,0.96875,0.8425605536332179,True,4,1.0
+mean texture = high AND mean perimeter = high,M,2,79,0.17362637362637362,0.9873417721518988,0.9605804635044402,True,14,1.0
+mean texture = high AND mean area = low,B,2,31,0.06813186813186813,0.967741935483871,0.8377896613190732,False,4,1.0
+mean texture = high AND mean area = high,M,2,77,0.16923076923076924,0.987012987012987,0.9595825005551853,False,14,1.0
+mean texture = high AND mean smoothness = high,M,2,51,0.11208791208791209,0.8823529411764706,0.7891426679907316,True,12,1.0
+mean perimeter = low AND mean area = low,B,2,148,0.3252747252747253,0.9662162162162162,0.8929411764705881,False,36,1.0
+mean perimeter = low AND mean smoothness = low,B,2,56,0.12307692307692308,1.0,0.9538539553752534,True,10,1.0
+mean perimeter = low AND mean smoothness = medium,B,2,46,0.1010989010989011,0.9782608695652174,0.8884803921568628,False,15,1.0
+mean perimeter = low AND mean smoothness = high,B,2,50,0.10989010989010989,0.92,0.7426470588235294,False,11,1.0
+mean perimeter = medium AND mean smoothness = low,B,2,73,0.16043956043956045,0.9726027397260274,0.8929411764705881,True,13,0.9230769230769231
+mean perimeter = high AND mean area = high,M,2,146,0.3208791208791209,0.910958904109589,0.8489805595068752,False,32,0.9375
+mean perimeter = high AND mean smoothness = medium,M,2,60,0.13186813186813187,0.9,0.8197509903791738,False,12,0.9166666666666666
+mean perimeter = high AND mean smoothness = high,M,2,69,0.15164835164835164,0.9710144927536232,0.9325426241660488,True,16,0.9375
+mean area = low AND mean smoothness = low,B,2,54,0.11868131868131868,1.0,0.952205882352941,False,10,1.0
+mean area = low AND mean smoothness = medium,B,2,47,0.10329670329670329,0.9787234042553191,0.8907563025210082,False,15,1.0
+mean area = medium AND mean smoothness = low,B,2,73,0.16043956043956045,0.9863013698630136,0.9286274509803923,True,12,0.9166666666666666
+mean area = high AND mean smoothness = medium,M,2,63,0.13846153846153847,0.8888888888888888,0.8035087719298245,True,13,0.8461538461538461
+mean area = high AND mean smoothness = high,M,2,64,0.14065934065934066,0.984375,0.9516214779372675,False,15,1.0
+mean radius = low AND mean texture = low AND mean perimeter = low,B,3,65,0.14285714285714285,1.0,0.9600526777875328,False,17,1.0
+mean radius = low AND mean texture = low AND mean area = low,B,3,67,0.14725274725274726,0.9850746268656716,0.9224211423699914,True,18,1.0
+mean radius = low AND mean texture = low AND mean smoothness = low,B,3,20,0.04395604395604396,1.0,0.8783422459893049,False,3,1.0
+mean radius = low AND mean texture = low AND mean smoothness = medium,B,3,23,0.05054945054945055,1.0,0.8929411764705881,False,8,1.0
+mean radius = low AND mean texture = low AND mean smoothness = high,B,3,24,0.05274725274725275,0.9583333333333334,0.7941176470588237,False,7,1.0
+mean radius = low AND mean texture = medium AND mean perimeter = low,B,3,53,0.11648351648351649,0.9245283018867925,0.7566844919786095,False,15,1.0
+mean radius = low AND mean texture = medium AND mean area = low,B,3,54,0.11868131868131868,0.9259259259259259,0.7610294117647058,True,16,1.0
+mean radius = low AND mean texture = medium AND mean smoothness = low,B,3,16,0.035164835164835165,1.0,0.8513071895424836,False,5,1.0
+mean radius = low AND mean texture = medium AND mean smoothness = medium,B,3,18,0.03956043956043956,0.9444444444444444,0.7323529411764707,False,5,1.0
+mean radius = low AND mean texture = high AND mean perimeter = low,B,3,31,0.06813186813186813,0.967741935483871,0.8377896613190732,True,4,1.0
+mean radius = low AND mean texture = high AND mean area = low,B,3,31,0.06813186813186813,0.967741935483871,0.8377896613190732,True,4,1.0
+mean radius = low AND mean texture = high AND mean smoothness = low,B,3,19,0.041758241758241756,1.0,0.872549019607843,True,2,1.0
+mean radius = low AND mean perimeter = low AND mean area = low,B,3,148,0.3252747252747253,0.9662162162162162,0.8929411764705881,True,36,1.0
+mean radius = low AND mean perimeter = low AND mean smoothness = low,B,3,53,0.11648351648351649,1.0,0.9513368983957219,True,10,1.0
+mean radius = low AND mean perimeter = low AND mean smoothness = medium,B,3,46,0.1010989010989011,0.9782608695652174,0.8884803921568628,False,15,1.0
+mean radius = low AND mean perimeter = low AND mean smoothness = high,B,3,50,0.10989010989010989,0.92,0.7426470588235294,False,11,1.0
+mean radius = low AND mean area = low AND mean smoothness = low,B,3,54,0.11868131868131868,1.0,0.952205882352941,True,10,1.0
+mean radius = low AND mean area = low AND mean smoothness = medium,B,3,47,0.10329670329670329,0.9787234042553191,0.8907563025210082,True,15,1.0
+mean radius = medium AND mean texture = low AND mean perimeter = medium,B,3,61,0.13406593406593406,0.9508196721311475,0.8300653594771242,False,18,0.8888888888888888
+mean radius = medium AND mean texture = low AND mean area = medium,B,3,63,0.13846153846153847,0.9523809523809523,0.8352941176470589,True,17,0.8823529411764706
+mean radius = medium AND mean texture = low AND mean smoothness = low,B,3,31,0.06813186813186813,1.0,0.9188948306595366,False,7,1.0
+mean radius = medium AND mean texture = low AND mean smoothness = medium,B,3,20,0.04395604395604396,1.0,0.8783422459893049,False,5,0.8
+mean radius = medium AND mean texture = medium AND mean smoothness = low,B,3,20,0.04395604395604396,1.0,0.8783422459893049,False,4,1.0
+mean radius = medium AND mean texture = high AND mean smoothness = low,B,3,21,0.046153846153846156,0.9523809523809523,0.7672634271099745,False,2,0.5
+mean radius = medium AND mean texture = high AND mean smoothness = high,M,3,13,0.02857142857142857,1.0,0.8935672514619883,False,4,1.0
+mean radius = medium AND mean perimeter = medium AND mean smoothness = low,B,3,68,0.14945054945054945,0.9852941176470589,0.9235294117647058,False,13,0.9230769230769231
+mean radius = medium AND mean area = medium AND mean smoothness = low,B,3,72,0.15824175824175823,0.9861111111111112,0.9276629570747219,True,12,0.9166666666666666
+mean radius = high AND mean texture = medium AND mean perimeter = high,M,3,49,0.1076923076923077,0.9183673469387755,0.8434812521499828,False,13,1.0
+mean radius = high AND mean texture = medium AND mean area = high,M,3,51,0.11208791208791209,0.8823529411764706,0.7891426679907316,True,13,1.0
+mean radius = high AND mean texture = medium AND mean smoothness = high,M,3,25,0.054945054945054944,1.0,0.9408706952566601,False,6,1.0
+mean radius = high AND mean texture = high AND mean perimeter = high,M,3,75,0.16483516483516483,0.9866666666666667,0.9585326953748006,False,14,1.0
+mean radius = high AND mean texture = high AND mean area = high,M,3,77,0.16923076923076924,0.987012987012987,0.9595825005551853,True,14,1.0
+mean radius = high AND mean texture = high AND mean smoothness = low,M,3,11,0.024175824175824177,0.9090909090909091,0.7543859649122807,False,2,1.0
+mean radius = high AND mean texture = high AND mean smoothness = medium,M,3,35,0.07692307692307693,1.0,0.9568515884305359,False,4,1.0
+mean radius = high AND mean texture = high AND mean smoothness = high,M,3,31,0.06813186813186813,1.0,0.9516214779372675,False,8,1.0
+mean radius = high AND mean perimeter = high AND mean area = high,M,3,146,0.3208791208791209,0.910958904109589,0.8489805595068752,True,32,0.9375
+mean radius = high AND mean perimeter = high AND mean smoothness = medium,M,3,60,0.13186813186813187,0.9,0.8197509903791738,False,12,0.9166666666666666
+mean radius = high AND mean perimeter = high AND mean smoothness = high,M,3,64,0.14065934065934066,0.984375,0.9516214779372675,False,16,0.9375
+mean radius = high AND mean area = high AND mean smoothness = medium,M,3,62,0.13626373626373625,0.8870967741935484,0.8004385964912281,True,13,0.8461538461538461
+mean radius = high AND mean area = high AND mean smoothness = high,M,3,64,0.14065934065934066,0.984375,0.9516214779372675,False,15,1.0
+mean texture = low AND mean perimeter = low AND mean area = low,B,3,65,0.14285714285714285,1.0,0.9600526777875328,False,17,1.0
+mean texture = low AND mean perimeter = low AND mean smoothness = low,B,3,20,0.04395604395604396,1.0,0.8783422459893049,True,3,1.0
+mean texture = low AND mean perimeter = low AND mean smoothness = medium,B,3,23,0.05054945054945055,1.0,0.8929411764705881,False,8,1.0
+mean texture = low AND mean perimeter = low AND mean smoothness = high,B,3,23,0.05054945054945055,1.0,0.8929411764705881,False,6,1.0
+mean texture = low AND mean perimeter = medium AND mean area = medium,B,3,61,0.13406593406593406,0.9508196721311475,0.8300653594771242,False,17,0.8823529411764706
+mean texture = low AND mean perimeter = medium AND mean smoothness = low,B,3,32,0.07032967032967033,1.0,0.921280276816609,True,7,1.0
+mean texture = low AND mean perimeter = medium AND mean smoothness = medium,B,3,20,0.04395604395604396,1.0,0.8783422459893049,False,6,0.8333333333333334
+mean texture = low AND mean area = low AND mean smoothness = low,B,3,20,0.04395604395604396,1.0,0.8783422459893049,False,3,1.0
+mean texture = low AND mean area = low AND mean smoothness = medium,B,3,23,0.05054945054945055,1.0,0.8929411764705881,False,8,1.0
+mean texture = low AND mean area = low AND mean smoothness = high,B,3,24,0.05274725274725275,0.9583333333333334,0.7941176470588237,False,7,1.0
+mean texture = low AND mean area = medium AND mean smoothness = low,B,3,31,0.06813186813186813,1.0,0.9188948306595366,False,6,1.0
+mean texture = low AND mean area = medium AND mean smoothness = medium,B,3,20,0.04395604395604396,1.0,0.8783422459893049,False,5,0.8
+mean texture = medium AND mean perimeter = low AND mean area = low,B,3,53,0.11648351648351649,0.9245283018867925,0.7566844919786095,False,15,1.0
+mean texture = medium AND mean perimeter = low AND mean smoothness = low,B,3,17,0.03736263736263736,1.0,0.8591331269349847,True,5,1.0
+mean texture = medium AND mean perimeter = low AND mean smoothness = medium,B,3,17,0.03736263736263736,0.9411764705882353,0.718266253869969,False,5,1.0
+mean texture = medium AND mean perimeter = medium AND mean smoothness = low,B,3,19,0.041758241758241756,1.0,0.872549019607843,True,4,1.0
+mean texture = medium AND mean perimeter = high AND mean area = high,M,3,49,0.1076923076923077,0.9183673469387755,0.8434812521499828,False,13,1.0
+mean texture = medium AND mean perimeter = high AND mean smoothness = medium,M,3,16,0.035164835164835165,0.875,0.7339181286549709,False,5,1.0
+mean texture = medium AND mean perimeter = high AND mean smoothness = high,M,3,25,0.054945054945054944,1.0,0.9408706952566601,False,6,1.0
+mean texture = medium AND mean area = low AND mean smoothness = low,B,3,16,0.035164835164835165,1.0,0.8513071895424836,False,5,1.0
+mean texture = medium AND mean area = low AND mean smoothness = medium,B,3,18,0.03956043956043956,0.9444444444444444,0.7323529411764707,False,5,1.0
+mean texture = medium AND mean area = medium AND mean smoothness = low,B,3,20,0.04395604395604396,1.0,0.8783422459893049,False,4,1.0
+mean texture = medium AND mean area = high AND mean smoothness = high,M,3,25,0.054945054945054944,1.0,0.9408706952566601,False,6,1.0
+mean texture = high AND mean perimeter = low AND mean area = low,B,3,30,0.06593406593406594,0.9666666666666667,0.8327205882352942,False,4,1.0
+mean texture = high AND mean perimeter = low AND mean smoothness = low,B,3,19,0.041758241758241756,1.0,0.872549019607843,True,2,1.0
+mean texture = high AND mean perimeter = high AND mean area = high,M,3,75,0.16483516483516483,0.9866666666666667,0.9585326953748006,False,14,1.0
+mean texture = high AND mean perimeter = high AND mean smoothness = low,M,3,10,0.02197802197802198,0.9,0.7339181286549709,False,2,1.0
+mean texture = high AND mean perimeter = high AND mean smoothness = medium,M,3,34,0.07472527472527472,1.0,0.9556530214424951,False,4,1.0
+mean texture = high AND mean perimeter = high AND mean smoothness = high,M,3,35,0.07692307692307693,1.0,0.9568515884305359,True,8,1.0
+mean texture = high AND mean area = low AND mean smoothness = low,B,3,18,0.03956043956043956,1.0,0.8661764705882352,False,2,1.0
+mean texture = high AND mean area = medium AND mean smoothness = low,B,3,22,0.04835164835164835,0.9545454545454546,0.7769607843137254,True,2,0.5
+mean texture = high AND mean area = medium AND mean smoothness = high,M,3,13,0.02857142857142857,1.0,0.8935672514619883,False,4,1.0
+mean texture = high AND mean area = high AND mean smoothness = low,M,3,11,0.024175824175824177,0.9090909090909091,0.7543859649122807,False,2,1.0
+mean texture = high AND mean area = high AND mean smoothness = medium,M,3,35,0.07692307692307693,1.0,0.9568515884305359,False,4,1.0
+mean texture = high AND mean area = high AND mean smoothness = high,M,3,31,0.06813186813186813,1.0,0.9516214779372675,False,8,1.0
+mean perimeter = low AND mean area = low AND mean smoothness = low,B,3,52,0.11428571428571428,1.0,0.9504357298474946,False,10,1.0
+mean perimeter = low AND mean area = low AND mean smoothness = medium,B,3,46,0.1010989010989011,0.9782608695652174,0.8884803921568628,False,15,1.0
+mean perimeter = low AND mean area = low AND mean smoothness = high,B,3,50,0.10989010989010989,0.92,0.7426470588235294,False,11,1.0
+mean perimeter = medium AND mean area = medium AND mean smoothness = low,B,3,68,0.14945054945054945,0.9852941176470589,0.9235294117647058,False,12,0.9166666666666666
+mean perimeter = high AND mean area = high AND mean smoothness = medium,M,3,60,0.13186813186813187,0.9,0.8197509903791738,False,12,0.9166666666666666
+mean perimeter = high AND mean area = high AND mean smoothness = high,M,3,64,0.14065934065934066,0.984375,0.9516214779372675,False,15,1.0
+mean radius = low AND mean texture = low AND mean perimeter = low AND mean area = low,B,4,65,0.14285714285714285,1.0,0.9600526777875328,True,17,1.0
+mean radius = low AND mean texture = low AND mean perimeter = low AND mean smoothness = low,B,4,19,0.041758241758241756,1.0,0.872549019607843,False,3,1.0
+mean radius = low AND mean texture = low AND mean perimeter = low AND mean smoothness = medium,B,4,23,0.05054945054945055,1.0,0.8929411764705881,False,8,1.0
+mean radius = low AND mean texture = low AND mean perimeter = low AND mean smoothness = high,B,4,23,0.05054945054945055,1.0,0.8929411764705881,False,6,1.0
+mean radius = low AND mean texture = low AND mean area = low AND mean smoothness = low,B,4,20,0.04395604395604396,1.0,0.8783422459893049,True,3,1.0
+mean radius = low AND mean texture = low AND mean area = low AND mean smoothness = medium,B,4,23,0.05054945054945055,1.0,0.8929411764705881,False,8,1.0
+mean radius = low AND mean texture = low AND mean area = low AND mean smoothness = high,B,4,24,0.05274725274725275,0.9583333333333334,0.7941176470588237,True,7,1.0
+mean radius = low AND mean texture = medium AND mean perimeter = low AND mean area = low,B,4,53,0.11648351648351649,0.9245283018867925,0.7566844919786095,True,15,1.0
+mean radius = low AND mean texture = medium AND mean perimeter = low AND mean smoothness = low,B,4,16,0.035164835164835165,1.0,0.8513071895424836,False,5,1.0
+mean radius = low AND mean texture = medium AND mean perimeter = low AND mean smoothness = medium,B,4,17,0.03736263736263736,0.9411764705882353,0.718266253869969,False,5,1.0
+mean radius = low AND mean texture = medium AND mean area = low AND mean smoothness = low,B,4,16,0.035164835164835165,1.0,0.8513071895424836,False,5,1.0
+mean radius = low AND mean texture = medium AND mean area = low AND mean smoothness = medium,B,4,18,0.03956043956043956,0.9444444444444444,0.7323529411764707,True,5,1.0
+mean radius = low AND mean texture = high AND mean perimeter = low AND mean area = low,B,4,30,0.06593406593406594,0.9666666666666667,0.8327205882352942,True,4,1.0
+mean radius = low AND mean texture = high AND mean perimeter = low AND mean smoothness = low,B,4,18,0.03956043956043956,1.0,0.8661764705882352,True,2,1.0
+mean radius = low AND mean texture = high AND mean area = low AND mean smoothness = low,B,4,18,0.03956043956043956,1.0,0.8661764705882352,True,2,1.0
+mean radius = low AND mean perimeter = low AND mean area = low AND mean smoothness = low,B,4,52,0.11428571428571428,1.0,0.9504357298474946,True,10,1.0
+mean radius = low AND mean perimeter = low AND mean area = low AND mean smoothness = medium,B,4,46,0.1010989010989011,0.9782608695652174,0.8884803921568628,True,15,1.0
+mean radius = low AND mean perimeter = low AND mean area = low AND mean smoothness = high,B,4,50,0.10989010989010989,0.92,0.7426470588235294,True,11,1.0
+mean radius = medium AND mean texture = low AND mean perimeter = medium AND mean area = medium,B,4,61,0.13406593406593406,0.9508196721311475,0.8300653594771242,True,17,0.8823529411764706
+mean radius = medium AND mean texture = low AND mean perimeter = medium AND mean smoothness = low,B,4,30,0.06593406593406594,1.0,0.9163602941176471,False,7,1.0
+mean radius = medium AND mean texture = low AND mean perimeter = medium AND mean smoothness = medium,B,4,20,0.04395604395604396,1.0,0.8783422459893049,False,5,0.8
+mean radius = medium AND mean texture = low AND mean area = medium AND mean smoothness = low,B,4,31,0.06813186813186813,1.0,0.9188948306595366,True,6,1.0
+mean radius = medium AND mean texture = low AND mean area = medium AND mean smoothness = medium,B,4,20,0.04395604395604396,1.0,0.8783422459893049,False,5,0.8
+mean radius = medium AND mean texture = medium AND mean perimeter = medium AND mean smoothness = low,B,4,18,0.03956043956043956,1.0,0.8661764705882352,False,4,1.0
+mean radius = medium AND mean texture = medium AND mean area = medium AND mean smoothness = low,B,4,20,0.04395604395604396,1.0,0.8783422459893049,True,4,1.0
+mean radius = medium AND mean texture = high AND mean perimeter = medium AND mean smoothness = low,B,4,20,0.04395604395604396,0.95,0.7566844919786095,False,2,0.5
+mean radius = medium AND mean texture = high AND mean area = medium AND mean smoothness = low,B,4,21,0.046153846153846156,0.9523809523809523,0.7672634271099745,True,2,0.5
+mean radius = medium AND mean texture = high AND mean area = medium AND mean smoothness = high,M,4,13,0.02857142857142857,1.0,0.8935672514619883,True,4,1.0
+mean radius = medium AND mean perimeter = medium AND mean area = medium AND mean smoothness = low,B,4,68,0.14945054945054945,0.9852941176470589,0.9235294117647058,True,12,0.9166666666666666
+mean radius = high AND mean texture = medium AND mean perimeter = high AND mean area = high,M,4,49,0.1076923076923077,0.9183673469387755,0.8434812521499828,True,13,1.0
+mean radius = high AND mean texture = medium AND mean perimeter = high AND mean smoothness = medium,M,4,16,0.035164835164835165,0.875,0.7339181286549709,False,5,1.0
+mean radius = high AND mean texture = medium AND mean perimeter = high AND mean smoothness = high,M,4,25,0.054945054945054944,1.0,0.9408706952566601,False,6,1.0
+mean radius = high AND mean texture = medium AND mean area = high AND mean smoothness = high,M,4,25,0.054945054945054944,1.0,0.9408706952566601,False,6,1.0
+mean radius = high AND mean texture = high AND mean perimeter = high AND mean area = high,M,4,75,0.16483516483516483,0.9866666666666667,0.9585326953748006,True,14,1.0
+mean radius = high AND mean texture = high AND mean perimeter = high AND mean smoothness = low,M,4,10,0.02197802197802198,0.9,0.7339181286549709,False,2,1.0
+mean radius = high AND mean texture = high AND mean perimeter = high AND mean smoothness = medium,M,4,34,0.07472527472527472,1.0,0.9556530214424951,False,4,1.0
+mean radius = high AND mean texture = high AND mean perimeter = high AND mean smoothness = high,M,4,31,0.06813186813186813,1.0,0.9516214779372675,False,8,1.0
+mean radius = high AND mean texture = high AND mean area = high AND mean smoothness = low,M,4,11,0.024175824175824177,0.9090909090909091,0.7543859649122807,True,2,1.0
+mean radius = high AND mean texture = high AND mean area = high AND mean smoothness = medium,M,4,35,0.07692307692307693,1.0,0.9568515884305359,True,4,1.0
+mean radius = high AND mean texture = high AND mean area = high AND mean smoothness = high,M,4,31,0.06813186813186813,1.0,0.9516214779372675,False,8,1.0
+mean radius = high AND mean perimeter = high AND mean area = high AND mean smoothness = medium,M,4,60,0.13186813186813187,0.9,0.8197509903791738,True,12,0.9166666666666666
+mean radius = high AND mean perimeter = high AND mean area = high AND mean smoothness = high,M,4,64,0.14065934065934066,0.984375,0.9516214779372675,True,15,1.0
+mean texture = low AND mean perimeter = low AND mean area = low AND mean smoothness = low,B,4,19,0.041758241758241756,1.0,0.872549019607843,False,3,1.0
+mean texture = low AND mean perimeter = low AND mean area = low AND mean smoothness = medium,B,4,23,0.05054945054945055,1.0,0.8929411764705881,False,8,1.0
+mean texture = low AND mean perimeter = low AND mean area = low AND mean smoothness = high,B,4,23,0.05054945054945055,1.0,0.8929411764705881,False,6,1.0
+mean texture = low AND mean perimeter = medium AND mean area = medium AND mean smoothness = low,B,4,30,0.06593406593406594,1.0,0.9163602941176471,False,6,1.0
+mean texture = low AND mean perimeter = medium AND mean area = medium AND mean smoothness = medium,B,4,20,0.04395604395604396,1.0,0.8783422459893049,False,5,0.8
+mean texture = medium AND mean perimeter = low AND mean area = low AND mean smoothness = low,B,4,16,0.035164835164835165,1.0,0.8513071895424836,False,5,1.0
+mean texture = medium AND mean perimeter = low AND mean area = low AND mean smoothness = medium,B,4,17,0.03736263736263736,0.9411764705882353,0.718266253869969,False,5,1.0
+mean texture = medium AND mean perimeter = medium AND mean area = medium AND mean smoothness = low,B,4,18,0.03956043956043956,1.0,0.8661764705882352,False,4,1.0
+mean texture = medium AND mean perimeter = high AND mean area = high AND mean smoothness = medium,M,4,16,0.035164835164835165,0.875,0.7339181286549709,False,5,1.0
+mean texture = medium AND mean perimeter = high AND mean area = high AND mean smoothness = high,M,4,25,0.054945054945054944,1.0,0.9408706952566601,False,6,1.0
+mean texture = high AND mean perimeter = low AND mean area = low AND mean smoothness = low,B,4,17,0.03736263736263736,1.0,0.8591331269349847,False,2,1.0
+mean texture = high AND mean perimeter = medium AND mean area = medium AND mean smoothness = low,B,4,20,0.04395604395604396,0.95,0.7566844919786095,False,2,0.5
+mean texture = high AND mean perimeter = high AND mean area = high AND mean smoothness = low,M,4,10,0.02197802197802198,0.9,0.7339181286549709,False,2,1.0
+mean texture = high AND mean perimeter = high AND mean area = high AND mean smoothness = medium,M,4,34,0.07472527472527472,1.0,0.9556530214424951,False,4,1.0
+mean texture = high AND mean perimeter = high AND mean area = high AND mean smoothness = high,M,4,31,0.06813186813186813,1.0,0.9516214779372675,False,8,1.0
+mean radius = low AND mean texture = low AND mean perimeter = low AND mean area = low AND mean smoothness = low,B,5,19,0.041758241758241756,1.0,0.872549019607843,True,3,1.0
+mean radius = low AND mean texture = low AND mean perimeter = low AND mean area = low AND mean smoothness = medium,B,5,23,0.05054945054945055,1.0,0.8929411764705881,True,8,1.0
+mean radius = low AND mean texture = low AND mean perimeter = low AND mean area = low AND mean smoothness = high,B,5,23,0.05054945054945055,1.0,0.8929411764705881,True,6,1.0
+mean radius = low AND mean texture = medium AND mean perimeter = low AND mean area = low AND mean smoothness = low,B,5,16,0.035164835164835165,1.0,0.8513071895424836,True,5,1.0
+mean radius = low AND mean texture = medium AND mean perimeter = low AND mean area = low AND mean smoothness = medium,B,5,17,0.03736263736263736,0.9411764705882353,0.718266253869969,True,5,1.0
+mean radius = low AND mean texture = high AND mean perimeter = low AND mean area = low AND mean smoothness = low,B,5,17,0.03736263736263736,1.0,0.8591331269349847,True,2,1.0
+mean radius = medium AND mean texture = low AND mean perimeter = medium AND mean area = medium AND mean smoothness = low,B,5,30,0.06593406593406594,1.0,0.9163602941176471,True,6,1.0
+mean radius = medium AND mean texture = low AND mean perimeter = medium AND mean area = medium AND mean smoothness = medium,B,5,20,0.04395604395604396,1.0,0.8783422459893049,True,5,0.8
+mean radius = medium AND mean texture = medium AND mean perimeter = medium AND mean area = medium AND mean smoothness = low,B,5,18,0.03956043956043956,1.0,0.8661764705882352,True,4,1.0
+mean radius = medium AND mean texture = high AND mean perimeter = medium AND mean area = medium AND mean smoothness = low,B,5,20,0.04395604395604396,0.95,0.7566844919786095,True,2,0.5
+mean radius = high AND mean texture = medium AND mean perimeter = high AND mean area = high AND mean smoothness = medium,M,5,16,0.035164835164835165,0.875,0.7339181286549709,True,5,1.0
+mean radius = high AND mean texture = medium AND mean perimeter = high AND mean area = high AND mean smoothness = high,M,5,25,0.054945054945054944,1.0,0.9408706952566601,True,6,1.0
+mean radius = high AND mean texture = high AND mean perimeter = high AND mean area = high AND mean smoothness = low,M,5,10,0.02197802197802198,0.9,0.7339181286549709,True,2,1.0
+mean radius = high AND mean texture = high AND mean perimeter = high AND mean area = high AND mean smoothness = medium,M,5,34,0.07472527472527472,1.0,0.9556530214424951,True,4,1.0
+mean radius = high AND mean texture = high AND mean perimeter = high AND mean area = high AND mean smoothness = high,M,5,31,0.06813186813186813,1.0,0.9516214779372675,True,8,1.0

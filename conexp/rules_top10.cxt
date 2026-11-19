@@ -1,0 +1,37 @@
+B
+
+10
+12
+
+B1
+B2
+B3
+B4
+B5
+M1
+M2
+M3
+M4
+M5
+radius low
+texture low
+perimeter low
+area low
+smoothness low
+smoothness medium
+smoothness high
+radius high
+texture high
+perimeter high
+Benign
+Malignant
+.XX.......X.
+XXX.......X.
+..X.X.....X.
+X...X.....X.
+...XX.....X.
+........XX.X
+.......XX..X
+.......XXX.X
+.....X.XX..X
+......X.XX.X

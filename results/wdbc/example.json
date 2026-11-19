@@ -1,0 +1,174 @@
+{
+ "correct_M": {
+  "index": 219,
+  "actual": "M",
+  "pred": "M",
+  "evB": 0.0,
+  "evM": 0.9605804635044402,
+  "margin": -1.0,
+  "values": {
+   "mean radius": 19.53,
+   "mean texture": 32.47,
+   "mean perimeter": 128.0,
+   "mean area": 1223.0,
+   "mean smoothness": 0.0842
+  },
+  "T": {
+   "mean radius": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "mean texture": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "mean perimeter": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "mean area": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "mean smoothness": [
+    0.829243865798698,
+    0.17075613420130198,
+    0.0
+   ]
+  },
+  "I": {
+   "mean radius": 0.0,
+   "mean texture": 0.0,
+   "mean perimeter": 0.0,
+   "mean area": 0.0,
+   "mean smoothness": 0.17075613420130198
+  },
+  "crisp": {
+   "mean radius": "high",
+   "mean texture": "high",
+   "mean perimeter": "high",
+   "mean area": "high",
+   "mean smoothness": "low"
+  },
+  "top_rules": [
+   {
+    "rule": "mean texture = high AND mean perimeter = high",
+    "cls": "M",
+    "weight": 0.9605804635044402,
+    "score": 1.0
+   },
+   {
+    "rule": "mean radius = high AND mean texture = high",
+    "cls": "M",
+    "weight": 0.9595825005551853,
+    "score": 1.0
+   },
+   {
+    "rule": "mean radius = high AND mean texture = high AND mean area = high",
+    "cls": "M",
+    "weight": 0.9595825005551853,
+    "score": 1.0
+   },
+   {
+    "rule": "mean texture = high AND mean area = high",
+    "cls": "M",
+    "weight": 0.9595825005551853,
+    "score": 1.0
+   }
+  ],
+  "n_active_B": 0,
+  "n_active_M": 35
+ },
+ "fn": {
+  "index": 73,
+  "actual": "M",
+  "pred": "B",
+  "evB": 0.6815226064830848,
+  "evM": 0.18621941201590547,
+  "margin": 0.5707954483107189,
+  "values": {
+   "mean radius": 13.8,
+   "mean texture": 15.79,
+   "mean perimeter": 90.43,
+   "mean area": 584.1,
+   "mean smoothness": 0.1007
+  },
+  "T": {
+   "mean radius": [
+    0.0,
+    0.8486842105263155,
+    0.15131578947368454
+   ],
+   "mean texture": [
+    0.9539877300613501,
+    0.0460122699386499,
+    0.0
+   ],
+   "mean perimeter": [
+    0.0,
+    0.7984508378122034,
+    0.20154916218779662
+   ],
+   "mean area": [
+    0.0,
+    0.8552597901202966,
+    0.14474020987970337
+   ],
+   "mean smoothness": [
+    0.0,
+    0.5470132743362828,
+    0.4529867256637173
+   ]
+  },
+  "I": {
+   "mean radius": 0.15131578947368451,
+   "mean texture": 0.04601226993864993,
+   "mean perimeter": 0.20154916218779662,
+   "mean area": 0.14474020987970337,
+   "mean smoothness": 0.4529867256637172
+  },
+  "crisp": {
+   "mean radius": "medium",
+   "mean texture": "low",
+   "mean perimeter": "medium",
+   "mean area": "medium",
+   "mean smoothness": "medium"
+  },
+  "top_rules": [
+   {
+    "rule": "mean texture = low AND mean area = medium",
+    "cls": "B",
+    "weight": 0.8352941176470589,
+    "score": 0.8159073457896086
+   },
+   {
+    "rule": "mean radius = medium AND mean texture = low",
+    "cls": "B",
+    "weight": 0.8352941176470589,
+    "score": 0.8096343235389087
+   },
+   {
+    "rule": "mean radius = medium AND mean texture = low AND mean area = medium",
+    "cls": "B",
+    "weight": 0.8352941176470589,
+    "score": 0.782692748829971
+   },
+   {
+    "rule": "mean texture = low AND mean perimeter = medium AND mean area = medium",
+    "cls": "B",
+    "weight": 0.8300653594771242,
+    "score": 0.7514948627609042
+   }
+  ],
+  "n_active_B": 14,
+  "n_active_M": 39
+ },
+ "fn_all_margins": [
+  0.5707954483107189,
+  1.0
+ ]
+}

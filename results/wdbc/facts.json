@@ -1,0 +1,91 @@
+{
+ "n_train": 455,
+ "n_test": 114,
+ "tertile_cuts": {
+  "mean radius": [
+   12.25,
+   14.86
+  ],
+  "mean texture": [
+   17.27,
+   20.9867
+  ],
+  "mean perimeter": [
+   78.3433,
+   96.7233
+  ],
+  "mean area": [
+   462.5667,
+   676.6333
+  ],
+  "mean smoothness": [
+   0.0886,
+   0.1013
+  ]
+ },
+ "fuzzy_knots": {
+  "mean radius": [
+   11.16,
+   13.34,
+   16.38
+  ],
+  "mean texture": [
+   15.64,
+   18.9,
+   23.0733
+  ],
+  "mean perimeter": [
+   70.5067,
+   86.18,
+   107.2667
+  ],
+  "mean area": [
+   378.7333,
+   546.4,
+   806.8667
+  ],
+  "mean smoothness": [
+   0.0819,
+   0.0952,
+   0.1073
+  ]
+ },
+ "n_formal_concepts": 184,
+ "corr_train": {
+  "mean radius": {
+   "mean radius": 1.0,
+   "mean texture": 0.326,
+   "mean perimeter": 0.998,
+   "mean area": 0.987,
+   "mean smoothness": 0.189
+  },
+  "mean texture": {
+   "mean radius": 0.326,
+   "mean texture": 1.0,
+   "mean perimeter": 0.332,
+   "mean area": 0.319,
+   "mean smoothness": -0.012
+  },
+  "mean perimeter": {
+   "mean radius": 0.998,
+   "mean texture": 0.332,
+   "mean perimeter": 1.0,
+   "mean area": 0.986,
+   "mean smoothness": 0.226
+  },
+  "mean area": {
+   "mean radius": 0.987,
+   "mean texture": 0.319,
+   "mean perimeter": 0.986,
+   "mean area": 1.0,
+   "mean smoothness": 0.2
+  },
+  "mean smoothness": {
+   "mean radius": 0.189,
+   "mean texture": -0.012,
+   "mean perimeter": 0.226,
+   "mean area": 0.2,
+   "mean smoothness": 1.0
+  }
+ }
+}
