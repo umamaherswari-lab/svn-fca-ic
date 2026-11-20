@@ -72,5 +72,5 @@ Large language models (ChatGPT and Claude) were used to assist in writing the an
 
 ## Citation and licence
 
-Citation: [to be added after publication and after the DOI is assigned].
+Citation: please cite the Zenodo record of this repository (the DOI is shown on its Zenodo page) and the associated manuscript.
 Licence: MIT (see the file LICENSE).
